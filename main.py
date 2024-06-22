@@ -7,10 +7,8 @@ def main():
     root = tk.Tk()
     root.title("Text Editor")
     
-    model = TextEditorModel("Ab ovo.\nAd astra.\nCarpe diem!\nDictum, factum.\nHomo homini lupus est.\nAlea iacta est!\nPro domo!")
+    model = TextEditorModel("Ab ovo.\nAd astra.\nCarpe diem!\nHomo homini lupus est.\nDictum, factum.\nHomo homini lupus est.\nAlea iacta est!\nPro domo!")
     editor = TextEditor(root, model)
-
-    editor.show()
 
     root.mainloop()
 
